@@ -1,0 +1,316 @@
+/*fonts available. all from google fonts
+	font-family: 'Fira Sans', Open Sans, sans-serif;
+	font-family: 'Numans', Open Sans, sans-serif;
+	font-family: 'Numans', Open Sans, sans-serif;
+	font-family: 'Open Sans Condensed', Open Sans, sans-serif;
+	font-family: 'Julius Sans One', Open Sans, sans-serif;
+*/
+html,body
+{
+	min-height:100%;
+}
+body
+{
+	background: black;
+	clear:both;
+}
+/*panel or autohiding menu bar starts*/
+#menu{
+	position:fixed;
+	height:60px;
+	width:100%;
+	z-index:9999;
+}
+#panel
+{
+	position:fixed;
+	text-align:left;
+	background-color:transparent;
+	color:white;
+	width:100%;
+	z-index:10000;
+}
+#menuItem
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+.item
+{
+	float:right;
+	width:10%;
+	font-family:"Essence Sans", "Open Sans", sans-serif;
+	font-size:24px;
+	margin-top:30px;
+	margin-bottom:34px;
+}
+#panel li:nth-child(2){
+	margin-right:20px;
+}
+.item:link,.item:visited
+{
+	display:block;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.item:hover,.item:active
+{
+	color:#ee9c21;
+	cursor:pointer;
+}
+/*menu bar anime elements styling ends and next starts*/
+#circle
+{
+	float:right;
+	position:fixed;
+	top:300px;
+	left:300px;
+	z-index:1;
+}
+.circle_pos
+{
+	margin:auto;
+	top:0px;
+	bottom:0px;
+	border-radius:100%;
+	position:absolute;
+}
+#circle_small
+{
+	background:#2F2D2E;
+	height:50px;
+	width:50px;
+	left:75px;
+	z-index:2;
+	font-size:14px;
+	padding-top:16px;
+	-webkit-box-shadow: 0px 0px 300px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 300px rgba(255,255,255,1);
+box-shadow: 0px 0px 300px rgba(255,255,255,1);
+	border:5px solid white;
+}
+#circle_big
+{
+	background:rgba;
+	left:100px;
+}
+#circle p
+{
+	margin-top:100px;
+	color:white;
+}
+#circle a
+{
+	position:absolute;
+	color:orange;
+	text-decoration:none;
+	top:95px;
+	font-size:26px;
+}
+#first
+{
+	height:660px;
+	position:fixed;
+}
+#tie
+{
+	float:left;
+	height:650px;
+	margin-left:-15px;
+}
+#logo
+{
+	float:left;
+	width:550px;
+	margin-top:80px;
+}
+#project
+{
+	font-family: 'Open Sans Condensed', Open Sans, sans-serif;
+	font-size:80px;
+}
+#first article
+{
+	margin-top:-0px;
+	line-height:1.5;
+}
+.hanc
+{
+	font-family: 'Julius Sans One', Open Sans, sans-serif;
+	color:white;
+}
+.a
+{
+	text-align:center;
+	font-size:16.5px;
+}
+.b
+{
+	text-align:center;
+	font-size:30px;
+}
+
+#second
+{
+	background:white;
+	color: black;
+	height:660px;
+	padding:100px;
+	position:fixed;
+}
+#second h1
+{
+	font-family: 'Open Sans Condensed', Open Sans, sans-serif;
+	font-size:100px;
+}
+#second img
+{
+	margin-top:-100px;
+	float:left;
+}
+#second article
+{
+	font-family: 'Raleway', 'Open Sans',sans-serif;
+	float:right;
+	word-wrap:break-word;
+	width:54%;
+	font-size:23px;
+}
+#third
+{
+	background:white;
+	color: black;
+	height:660px;
+	padding:100px;
+	position:fixed;
+}
+#third h1
+{
+	font-family: 'Open Sans Condensed', Open Sans, sans-serif;
+	font-size:100px;
+	margin-bottom:20px;
+}
+#third img
+{
+	margin-top:-150px;
+	float:right;
+}
+#third article
+{
+	font-family: 'Raleway', 'Open Sans',sans-serif;
+	float:right;
+	word-wrap:break-word;
+	width:54%;
+	font-size:23px;
+}
+#fourth
+{
+	background:white;
+	color: black;
+	height:660px;
+	padding:100px;
+	position:fixed;
+}
+#fourth h1
+{
+	font-family: 'Open Sans Condensed', Open Sans, sans-serif;
+	font-size:100px;
+	margin-bottom:20px;
+}
+#fourth img
+{
+	margin-top:-100px;
+	margin-left:-100px;
+	margin-right:60px;
+	float:left;
+	width:550px;
+}
+#fourth article
+{
+	font-family: 'Raleway', 'Open Sans',sans-serif;
+	float:left;
+	word-wrap:break-word;
+	width:54%;
+	font-size:23px;
+	margin-top:-20px;
+}
+#fifth
+{
+	background:white;
+	color: black;
+	height:660px;
+	padding:100px;
+	position:fixed;
+	width:100%;
+}
+#fifth h1
+{
+	font-family: 'Open Sans Condensed', Open Sans, sans-serif;
+	font-size:100px;
+	margin-bottom:20px;
+}
+#fifth img
+{
+	margin-right:30px;
+	float:left;
+	width:600px;
+	margin-left:20px;
+	border-right:1px solid black;
+	padding-right:80px;
+	margin-top: 40px;
+}
+#fifth article
+{
+	font-family: 'Raleway', 'Open Sans',sans-serif;
+	float:left;
+	font-size:80px;
+	margin-top:150px;
+	margin-left:80px;
+}
+#fifth button
+{
+	color:#270EA0;
+	background:white;
+	border:10px solid #270EA0;
+}
+#sixth
+{
+	background:white;
+	color: black;
+	height:660px;
+	padding:100px;
+	position:fixed;
+	width:100%;
+}
+#sixth h1
+{
+	font-family: 'Open Sans Condensed', Open Sans, sans-serif;
+	font-size:100px;
+	margin-top:-40px;
+}
+#sixth article
+{
+	font-family: 'Raleway', 'Open Sans',sans-serif;
+	font-size:80px;
+}
+#sixth img
+{
+	height:100px;
+	width:100px;
+	margin:0px 40px 0px 40px;
+}
+#sixth ul
+{
+	margin-top:100px;
+}
+#sixth li
+{
+	list-style-type:none;
+	display:inline-block;
+	font-size:20px;
+}
